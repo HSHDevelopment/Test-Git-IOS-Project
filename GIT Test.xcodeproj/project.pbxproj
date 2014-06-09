@@ -21,6 +21,7 @@
 		892F17331946495A000B7301 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 892F17151946495A000B7301 /* UIKit.framework */; };
 		892F173B1946495A000B7301 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 892F17391946495A000B7301 /* InfoPlist.strings */; };
 		892F173D1946495A000B7301 /* GIT_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 892F173C1946495A000B7301 /* GIT_TestTests.m */; };
+		892F174819465059000B7301 /* HSHTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 892F174719465059000B7301 /* HSHTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		892F17381946495A000B7301 /* GIT TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GIT TestTests-Info.plist"; sourceTree = "<group>"; };
 		892F173A1946495A000B7301 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		892F173C1946495A000B7301 /* GIT_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GIT_TestTests.m; sourceTree = "<group>"; };
+		892F174619465059000B7301 /* HSHTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSHTest.h; sourceTree = "<group>"; };
+		892F174719465059000B7301 /* HSHTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSHTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				892F17231946495A000B7301 /* Main.storyboard */,
 				892F17261946495A000B7301 /* HSHViewController.h */,
 				892F17271946495A000B7301 /* HSHViewController.m */,
+				892F174619465059000B7301 /* HSHTest.h */,
+				892F174719465059000B7301 /* HSHTest.m */,
 				892F17291946495A000B7301 /* Images.xcassets */,
 				892F17181946495A000B7301 /* Supporting Files */,
 			);
@@ -253,6 +258,7 @@
 				892F17221946495A000B7301 /* HSHAppDelegate.m in Sources */,
 				892F17281946495A000B7301 /* HSHViewController.m in Sources */,
 				892F171E1946495A000B7301 /* main.m in Sources */,
+				892F174819465059000B7301 /* HSHTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
